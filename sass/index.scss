@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import "./utils/root";
+@import "./utils/App";
+@import "./components/Components";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    background-color: var(--body-bg-color);
+}
