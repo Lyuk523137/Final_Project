@@ -3,33 +3,3 @@
 @import "./utils/App";
 @import "./components/Components";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@800&display=swap");
-
-@mixin Center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-    font-family: "Montserrat", sans-serif;
-}
-html,
-body {
-    height: 100%;
-}
-body {
-    background-color: var(--body-bg-color);
-}
-.container {
-    display: flex;
-    flex-direction: column;
-}
-header,
-main,
-footer {
-    flex-grow: 1;
-}
