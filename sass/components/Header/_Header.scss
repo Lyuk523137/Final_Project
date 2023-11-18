@@ -1,0 +1,56 @@
+@mixin Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+header {
+    position: relative;
+    @include Center;
+    align-items: flex-end;
+    // display: flex;
+    justify-content: space-between;
+    height: 6vw;
+    z-index: 1;
+}
+.List-items {
+    margin-right: 5vw;
+    width: 40vw;
+    display: flex;
+}
+.Items,
+.Item_contact {
+    padding: 1vw;
+    font-family: Inter;
+    font-weight: 400;
+    color: #fff;
+}
+.Item_contact {
+    padding: 0, 60vw 3, 5vw;
+    backdrop-filter: var(--header-login_bg_backdrop_filter);
+    border: 2px solid#9616c3;
+    gap: 10px;
+    border-radius: 25px;
+}
+
+.Name {
+    margin-left: 5vw;
+    display: flex;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: #fff;
+    align-items: center;
+}
+.Full_name {
+    margin-left: 8px;
+}
+
+.circle {
+    @include Center;
+    display: flex;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    background: var(--header-icon_linear-gradient);
+}
