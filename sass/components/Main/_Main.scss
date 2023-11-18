@@ -274,3 +274,22 @@ main {
     font-style: normal;
     font-weight: 800;
 }
+.news {
+    display: flex;
+    width: 10vw;
+}
+.medias {
+    display: flex;
+    height: 9vw;
+    padding: 0.5vw 0 2vw 2vw;
+}
+.nice {
+    display: flex;
+    margin: 0.5vw;
+    padding: 1vw;
+    height: 5vw;
+    border: 2px solid#9616c3;
+    border-radius: 1vw;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16.53229522705078px);
+}

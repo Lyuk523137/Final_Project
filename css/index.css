@@ -512,3 +512,92 @@ main {
   font-style: normal;
   font-weight: 800;
 }
+
+.news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10vw;
+}
+
+.medias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 9vw;
+  padding: 0.5vw 0 2vw 2vw;
+}
+
+.nice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5vw;
+  padding: 1vw;
+  height: 5vw;
+  border: 2px solid #9616c3;
+  border-radius: 1vw;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(16.5322952271px);
+          backdrop-filter: blur(16.5322952271px);
+}
+
+footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 20vw;
+  z-index: 1;
+  background-color: var(--second-block);
+}
+
+.link_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5vw;
+  padding: 0.5vw;
+}
+
+.Name1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 800;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bigger {
+  margin: 0 1vw;
+  padding: 0.5vw;
+  border-radius: 5.7px;
+  border: 0.6px solid #ee0bd7;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(4.9499993324px);
+          backdrop-filter: blur(4.9499993324px);
+}
+
+.nice_vector {
+  position: absolute;
+  bottom: 10vw;
+  left: 35vw;
+}
