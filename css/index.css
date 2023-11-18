@@ -24,6 +24,14 @@ li {
   list-style: none;
 }
 
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
 header {
   position: relative;
   display: -webkit-box;
