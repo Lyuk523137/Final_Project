@@ -23,15 +23,7 @@ main {
 .avatar {
     position: relative;
     margin-left: 15vw;
-    top: 1vw;
-    border: 2px;
-    // border-radius: 1vw;
-    // background: rgba(255, 255, 255, 0.1);
-    // backdrop-filter: blur(16.53229522705078px);
-
-    // background-color: #0b0a0a;
-    // border-radius: 20px;
-    // padding: 1vw;
+    top: 2vw;
 }
 
 .First_block {
@@ -179,6 +171,19 @@ main {
     font-style: normal;
     font-weight: 800;
 }
+.job3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 2vw;
+    width: 100%;
+    font-size: 3vw;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+}
 .place_of_work1 {
     display: flex;
     justify-content: center;
@@ -201,8 +206,14 @@ main {
 .right {
     grid-column: 2/3;
     grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .uia_pic {
+    position: absolute;
+    top: 67vw;
+    left: 42vw;
     width: 6vw;
     height: 4vw;
     border-radius: 1vw;
@@ -224,7 +235,7 @@ main {
     margin: 1vw;
     color: #fff;
     font-weight: 400;
-    width: 40%;
+    width: 45%;
 }
 .spoken {
     padding: 0.3vw;
@@ -282,6 +293,8 @@ main {
     display: flex;
     height: 9vw;
     padding: 0.5vw 0 2vw 2vw;
+    width: 90%;
+    flex-wrap: wrap;
 }
 .nice {
     display: flex;
