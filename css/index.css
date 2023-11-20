@@ -645,7 +645,21 @@ main {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  max-width: 9vw;
+  border: 2px solid #9616c3;
+  border-radius: 1vw;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(16.5322952271px);
+          backdrop-filter: blur(16.5322952271px);
+}
+
+.company_lists_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5vw;
+  padding: 1vw;
+  height: 5vw;
+  width: 7vw;
   border: 2px solid #9616c3;
   border-radius: 1vw;
   background: rgba(255, 255, 255, 0.1);
