@@ -659,6 +659,7 @@ main {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  max-width: 8vw;
 }
 
 footer {
