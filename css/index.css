@@ -645,6 +645,7 @@ main {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  max-width: 9vw;
   border: 2px solid #9616c3;
   border-radius: 1vw;
   background: rgba(255, 255, 255, 0.1);
