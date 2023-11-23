@@ -251,6 +251,15 @@ main {
     top: 47vw;
     right: 0vw;
     width: 45vw;
+    animation: movePicture2 3s infinite alternate;
+}
+@keyframes movePicture2 {
+    from {
+        transform: translateX(-30vw);
+    }
+    to {
+        transform: translateX(0vw);
+    }
 }
 .main4 {
     display: grid;
@@ -287,13 +296,8 @@ main {
 }
 .news {
     display: flex;
-    // width: 10vw;
 }
-// .medias {
-//     display: flex;
-//     height: 9vw;
-//     padding: 0.5vw 0 2vw 2vw;
-// }
+
 .companies {
     display: flex;
     flex-direction: column;
@@ -307,7 +311,6 @@ main {
     padding: 1vw;
     height: 5vw;
     width: max-content;
-    // max-width: 9vw;
     border: 2px solid#9616c3;
     border-radius: 1vw;
     background: rgba(255, 255, 255, 0.1);
