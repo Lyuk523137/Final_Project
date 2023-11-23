@@ -702,6 +702,36 @@ main {
   max-width: 8vw;
 }
 
+.moving-picture {
+  position: absolute;
+  top: 105vw;
+  right: 25%;
+  width: 75%;
+  -webkit-animation: movePicture 2s infinite alternate;
+          animation: movePicture 2s infinite alternate;
+}
+
+@-webkit-keyframes movePicture {
+  from {
+    -webkit-transform: translateX(-20vw);
+            transform: translateX(-20vw);
+  }
+  to {
+    -webkit-transform: translateY(-20vw);
+            transform: translateY(-20vw);
+  }
+}
+
+@keyframes movePicture {
+  from {
+    -webkit-transform: translateX(-20vw);
+            transform: translateX(-20vw);
+  }
+  to {
+    -webkit-transform: translateY(-20vw);
+            transform: translateY(-20vw);
+  }
+}
 footer {
   position: relative;
   display: -webkit-box;
@@ -756,6 +786,7 @@ footer {
 }
 
 .bigger_inst {
+  position: relative;
   margin: 0 1vw;
   padding: 0.5vw;
   border-radius: 5.7px;
@@ -765,36 +796,6 @@ footer {
           backdrop-filter: blur(4.9499993324px);
 }
 
-.moving-picture {
-  position: absolute;
-  bottom: 10vw;
-  left: 0.5 vw;
-  width: 75%;
-  -webkit-animation: movePicture 2s infinite alternate;
-          animation: movePicture 2s infinite alternate;
-}
-
-@-webkit-keyframes movePicture {
-  from {
-    -webkit-transform: translateX(-20vw);
-            transform: translateX(-20vw);
-  }
-  to {
-    -webkit-transform: translateY(-20vw);
-            transform: translateY(-20vw);
-  }
-}
-
-@keyframes movePicture {
-  from {
-    -webkit-transform: translateX(-20vw);
-            transform: translateX(-20vw);
-  }
-  to {
-    -webkit-transform: translateY(-20vw);
-            transform: translateY(-20vw);
-  }
-}
 @media screen and (max-width: 1000px) {
   .beautiful-button {
     display: none;

@@ -334,3 +334,18 @@ main {
     width: max-content;
     max-width: 8vw;
 }
+.moving-picture {
+    position: absolute;
+    top: 105vw;
+    right: 25%;
+    width: 75%;
+    animation: movePicture 2s infinite alternate;
+}
+@keyframes movePicture {
+    from {
+        transform: translateX(-20vw);
+    }
+    to {
+        transform: translateY(-20vw);
+    }
+}
