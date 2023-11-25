@@ -117,6 +117,7 @@ nav {
   font-weight: 400;
   color: #fff;
   position: relative;
+  font-size: 1.5vw;
 }
 
 .Item_contact {
@@ -295,6 +296,7 @@ main {
   color: var(--white);
   font-family: Inter;
   font-weight: 400;
+  font-size: 1.5vw;
 }
 
 .beautiful-button {
@@ -979,7 +981,7 @@ footer {
     padding: 3vw;
     font-size: 4vw;
     margin-top: 0;
-    width: 100%;
+    width: 90%;
   }
   .left2 {
     display: -webkit-box;
