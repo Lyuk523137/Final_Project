@@ -82,7 +82,7 @@ main {
     background: linear-gradient(to bottom, #f3a3d3 4.32%, #aa58c8 93.14%);
     color: black;
     animation: button-particles 1s ease-in-out infinite;
-    transform: translateY(-2px);
+    transform: translateZ(-2px);
 }
 
 .beautiful-button:active {

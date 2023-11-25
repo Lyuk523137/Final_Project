@@ -7,6 +7,10 @@
     --header-login_bg_backdrop_filter: blur(16.53229522705078px);
     --border: #ee0bd7;
     --second-block: #0b0a0a;
+    --ts: all 0.5s ease;
+    --x90: rotateX(90deg);
+    --z24: translateZ(24.5px);
+    --xm90: rotateX(-90deg);
 }
 
 @mixin Center {
