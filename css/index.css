@@ -796,7 +796,8 @@ footer {
 
 @media screen and (max-width: 1000px) {
   .beautiful-button {
-    display: none;
+    position: absolute;
+    top: 50vw;
   }
 }
 @media screen and (max-width: 800px) {
@@ -806,6 +807,10 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 0;
+  }
+  .beautiful-button {
+    position: absolute;
+    top: 70vw;
   }
   .avatar {
     position: relative;

@@ -4,7 +4,9 @@
 
 @media screen and (max-width: 1000px) {
     .beautiful-button {
-        display: none;
+        // display: none;
+        position: absolute;
+        top: 50vw;
     }
 }
 
@@ -14,6 +16,13 @@
         align-items: center;
         margin-top: 0;
     }
+
+    .beautiful-button {
+        // display: none;
+        position: absolute;
+        top: 70vw;
+    }
+
     .avatar {
         position: relative;
         display: flex;
