@@ -1,6 +1,5 @@
 .second_body {
     margin: 0;
-    /* overflow: hidden; */
     background: #0b0a0a;
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
@@ -26,6 +25,16 @@
     text-align: center;
 }
 
+.second_header2 {
+    background: linear-gradient(45deg, #140c25, #320b32, #0b0a0a);
+    padding: 4vw;
+    border-radius: 2vw;
+    text-align: center;
+    border: 3px solid #9616c3;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(74.65984344482422px);
+}
+
 .second_h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -44,9 +53,31 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+.Rectangle15 {
+    position: absolute;
+    top: 25vw;
+    left: 0;
+    width: max-content;
+}
+
+.Ellipse12 {
+    position: absolute;
+    top: 22vw;
+    left: 0vw;
+}
+.Rectangle37 {
+    position: absolute;
+    top: 15vw;
+    right: 3vw;
+}
+
+h2 {
+    max-width: 50vw;
+    display: flex;
+    margin-left: 20%;
+}
 
 .soft-skills {
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     padding: 20px;
     backdrop-filter: blur(10px);
@@ -91,7 +122,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #fff;
+    border: 1px solid #9616c3;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     background: #0b0a0a;
     color: #fff;
@@ -106,12 +137,22 @@ img {
         width: calc(50% - 20px);
         height: 200px;
     }
+    .Rectangle37 {
+        top: 50vw;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .card {
         width: calc(100% - 20px);
         height: 150px;
+    }
+    .Rectangle37 {
+        display: none;
+    }
+    h2 {
+        max-width: 95%;
+        margin: 0;
     }
 }
 
