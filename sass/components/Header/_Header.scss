@@ -9,7 +9,6 @@ header {
     position: relative;
     @include Center;
     align-items: flex-end;
-    // display: flex;
     justify-content: space-between;
     height: 6vw;
     z-index: 1;
@@ -32,22 +31,8 @@ nav {
     color: #fff;
     position: relative;
 }
-// .Item_contact {
-//     padding: 0, 60vw 3, 5vw;
-//     backdrop-filter: var(--header-login_bg_backdrop_filter);
-//     border: 2px solid#9616c3;
-//     gap: 10px;
-//     border-radius: 25px;
-// }
-.Item_contact:hover > span {
-    transform: var(--x90);
-}
-.Item_contact > span::before {
-    padding: 1vw;
-    font-family: Inter;
-    font-weight: 400;
-    color: #fff;
-    position: relative;
+
+.Item_contact {
     padding: 0, 60vw 3, 5vw;
     backdrop-filter: var(--header-login_bg_backdrop_filter);
     border: 2px solid#9616c3;
@@ -55,17 +40,6 @@ nav {
     border-radius: 25px;
     transform: var(--z24);
 }
-
-.Item_contact > span::after {
-    transform: var(--xm90) var(--z24);
-}
-
-.Contact::before {
-    content: "Contact";
-}
-// .Contact::after {
-//     content: "lyukmark1@gmail.com";
-// }
 
 .Name {
     margin-left: 5vw;

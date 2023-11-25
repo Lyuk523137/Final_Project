@@ -117,17 +117,7 @@ nav {
   position: relative;
 }
 
-.Item_contact:hover > span {
-  -webkit-transform: var(--x90);
-          transform: var(--x90);
-}
-
-.Item_contact > span::before {
-  padding: 1vw;
-  font-family: Inter;
-  font-weight: 400;
-  color: #fff;
-  position: relative;
+.Item_contact {
   padding: 0, 60vw 3, 5vw;
   -webkit-backdrop-filter: var(--header-login_bg_backdrop_filter);
           backdrop-filter: var(--header-login_bg_backdrop_filter);
@@ -136,15 +126,6 @@ nav {
   border-radius: 25px;
   -webkit-transform: var(--z24);
           transform: var(--z24);
-}
-
-.Item_contact > span::after {
-  -webkit-transform: var(--xm90) var(--z24);
-          transform: var(--xm90) var(--z24);
-}
-
-.Contact::before {
-  content: "Contact";
 }
 
 .Name {
