@@ -13,6 +13,7 @@
   --x90: rotateX(90deg);
   --z24: translateZ(24.5px);
   --xm90: rotateX(-90deg);
+  --white: #fff;
 }
 
 * {
@@ -281,7 +282,7 @@ main {
   display: flex;
   position: relative;
   font-size: 6vw;
-  color: #fff;
+  color: var(--white);
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
@@ -290,7 +291,7 @@ main {
 .Discription {
   margin-left: 5vw;
   margin-top: 1vw;
-  color: #fff;
+  color: var(--white);
   font-family: Inter;
   font-weight: 400;
 }
@@ -432,7 +433,7 @@ main {
   margin-top: 2vw;
   width: 100%;
   font-size: 3vw;
-  color: #fff;
+  color: var(--white);
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
@@ -446,7 +447,7 @@ main {
   width: 100%;
   font-size: 2vw;
   padding: 1vw 0;
-  color: #fff;
+  color: var(--white);
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
@@ -464,7 +465,7 @@ main {
   margin-top: 2vw;
   width: 100%;
   font-size: 3vw;
-  color: #fff;
+  color: var(--white);
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
@@ -478,7 +479,7 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  color: #fff;
+  color: var(--white);
   font-family: Inter;
   font-weight: 400;
 }
@@ -535,7 +536,7 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 1vw;
-  color: #fff;
+  color: var(--white);
   font-weight: 500;
 }
 
@@ -552,7 +553,7 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 1vw;
-  color: #fff;
+  color: var(--white);
   font-weight: 400;
   width: 45%;
 }
@@ -641,7 +642,7 @@ main {
   width: 100%;
   font-size: 2vw;
   padding: 1vw 0;
-  color: #fff;
+  color: var(--white);
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
